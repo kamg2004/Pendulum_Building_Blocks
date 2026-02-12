@@ -5,7 +5,7 @@ using System.IO.Ports;
 public class SerialRotation : MonoBehaviour
 {
     // Change this to your Micro's COM port (check Arduino IDE)
-    SerialPort stream = new SerialPort("COM8", 115200); 
+    SerialPort stream = new SerialPort("COM5", 115200); 
     public LineRenderer velocityLine;
     public DisplacementGraph graph;
     public EnergyGraph energyGraph;
