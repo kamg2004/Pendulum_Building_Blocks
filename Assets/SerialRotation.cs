@@ -100,6 +100,8 @@ private Vector3 filteredVelocity; // The "memory" variable
                     float rad = DisplacementAngle * Mathf.Deg2Rad;
                     float height = PendulumLength * (1.0f - Mathf.Cos(rad));
                     float pe = Gravity * height;
+                    pe=0.5f*pe;
+                    ke=0.5f*ke;
 
                     float te = ke + pe; 
 

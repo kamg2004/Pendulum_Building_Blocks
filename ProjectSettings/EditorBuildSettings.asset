@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/ModeSelection.unity
+    guid: 6e3e265b0f7f33245939760a17acb9ad
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e10000528428dd6409a435641c37cf72
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: c5d4f6aa02872ad4581928cb1988ce9f
+  - enabled: 1
+    path: Assets/Scenes/Simulation.unity
+    guid: ea3d6e8756b08314caa92363c95fa284
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 721b0c9c158aaff46973e1c74e154059, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

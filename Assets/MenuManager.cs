@@ -24,7 +24,7 @@ public class MenuManager : MonoBehaviour
             // (You can set a default length here if you want, e.g., 0.5 meters)
             chosenLength = 0.5f; 
             Debug.Log("Virtual Mode Selected -> Going straight to Simulation");
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene("Simulation");
         }
     }
 
